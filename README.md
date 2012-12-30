@@ -34,7 +34,7 @@ This approach makes each module self contained.
 
 ## Caveats
 
-You want to make sure that inter-dependency between this modules is keep to a minimun.
+You want to make sure that inter-dependency between this modules is keep to a minimum.
 
 ## Usage
 
@@ -42,7 +42,7 @@ Install as usual via npm
 
     npm install node-resources
 
-You can add it to the server as any other connect middleware. For example to use the structure above you should do the following.
+To use the structure above you should do the following.
 
     var resources = require('node-resources');
     resources.registerRoutes(server, {path: __dirname + "/resources"});
