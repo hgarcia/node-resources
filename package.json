@@ -1,26 +1,25 @@
 {
-  "name": "connect-resources",
+  "name": "node-resources",
   "version": "0.1.0",
-  "description": "A connect middleware to help registering modules and routes. Improve separation of concerns and propose a different code organization on your restify, ExpressJS and other connect based frameworks.",
+  "description": "A helper to register routes from modules on restify and ExpressJS. Improves separation of concerns and propose a different code organization on your application.",
   "main": "index.js",
   "scripts": {
     "test": "mocha tests/*.tests.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:hgarcia/connect-resources.git"
+    "url": "git@github.com:hgarcia/node-resources.git"
   },
   "devDependencies": {
     "mocha": "1.7.4",
     "should": "1.2.1"
   },
   "keywords": [
-    "connect",
     "rest",
     "resources",
     "routes",
     "registration",
-    "expressJs",
+    "ExpressJS",
     "restify"
   ],
   "author": "Hernan Garcia <hernan@dynamicprogrammer.com> (http://dynamicprogrammer.com)",
