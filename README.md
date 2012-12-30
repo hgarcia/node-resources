@@ -1,9 +1,5 @@
-connect-resource
+node-resources
 ================
-
-Connect middleware that register routes in Restify or ExpressJS applications. Promotes a different way to organize your code based on resources or modules instead.
-
-## Organizing your code in modules
 
 When working on Restify or ExpressJS applications you usually see a file structure based on routes, models and views.
 
@@ -44,12 +40,12 @@ You want to make sure that inter-dependency between this modules is keep to a mi
 
 Install as usual via npm
 
-    npm install connect-resource
+    npm install node-resources
 
 You can add it to the server as any other connect middleware. For example to use the structure above you should do the following.
 
-    var resources = require('connect-resource');
-    server.use(resources.registerRoutes(server, {path: __dirname + "/resources"}));
+    var resources = require('node-resources');
+    resources.registerRoutes(server, {path: __dirname + "/resources"});
 
 ## Api
 

@@ -27,9 +27,6 @@ function register(app, options) {
 
 exports.registerRoutes = function (app, options) {
   if (!options || !options.path) { throw new Error('Indicate the path to the resources.'); }
-  return function (req, res, next) {
-    var dirs = fs.readdirSync(options.path);
-    dirs.forEach(register(app, options));
-    if (next) { next(); }
-  };
+  var dirs = fs.readdirSync(options.path);
+  dirs.forEach(register(app, options));
 };
