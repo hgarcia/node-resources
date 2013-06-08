@@ -47,9 +47,17 @@ To use the structure above you should do the following.
     var resources = require('node-resources');
     resources.registerRoutes(server, {path: __dirname + "/resources"});
 
+Your route files should export a function that accepts the server as it's only parameter.
+
+    module.exports = function (app) {
+      app.get("/one", function () {});
+      app.post("/one", function () {});
+    };
+
 ## Api
 
 The module exports only one method `registerRoutes(server, options)`
+The server argument is your server or application on restify/express
 The `options` argument can have two properties.
 
 ### options.path
