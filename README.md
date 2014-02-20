@@ -1,6 +1,8 @@
 node-resources
 ================
 
+[![Build Status](https://travis-ci.org/hgarcia/node-resources.png?branch=master)](https://travis-ci.org/hgarcia/node-resources)
+
 When working on Restify or ExpressJS applications you usually see a file structure based on routes, models and views.
 
     |_app.js
