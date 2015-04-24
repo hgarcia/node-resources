@@ -20,6 +20,7 @@ function register(app, options) {
       try {
         require(modulePath)(app);
       } catch (err) {
+        console.error(err)
       }
     }
   };
