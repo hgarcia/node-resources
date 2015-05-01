@@ -1,6 +1,6 @@
 {
   "name": "node-resources",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A helper to register routes from modules on restify and ExpressJS. Improves separation of concerns and propose a different code organization on your application.",
   "main": "index.js",
   "scripts": {

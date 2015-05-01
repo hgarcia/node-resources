@@ -2,6 +2,13 @@ node-resources
 ================
 
 [![Build Status](https://travis-ci.org/hgarcia/node-resources.png?branch=master)](https://travis-ci.org/hgarcia/node-resources)
+[![NPM version](https://badge-me.herokuapp.com/api/npm/node-resources.png)](http://badges.enytc.com/for/npm/node-resources)
+
+### History
+  -0.1.1
+    Added console log to show errors when requiring resources. Thanks to https://github.com/rstuven
+
+### Usage
 
 When working on Restify or ExpressJS applications you usually see a file structure based on routes, models and views.
 

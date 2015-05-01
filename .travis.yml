@@ -1,3 +1,8 @@
 language: node_js
 node_js:
-  - "0.10"
+- '0.10'
+deploy:
+  on:
+    tags: true
+  api_key:
+    secure: fCMfCpkBSv6sQRSQ4gFKwZOkhVBoyqO9sVvKDHsVw+Tm4zOzS3O4/uf8yZkY0L7g+ZhzNuVdVNIWS7D8dTS/y8/I0ZntATDG/RhbSBIAF4LTxRRSej0LzE3bAijz3Q7uKz1EG0/lxKfoJpKmpxkx1eYVknjO0rsnjoZkQvF/JY4=
