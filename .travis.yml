@@ -2,6 +2,7 @@ language: node_js
 node_js:
 - '0.10'
 deploy:
+  provider: npm
   on:
     tags: true
   api_key:
